@@ -2,7 +2,7 @@
 ## functions do
 
 ## Write a short comment describing this function
-
+## makeCachMatrix calculates the inverse of matrix and store the matrix and inverse in a list
 makeCacheMatrix <- function(x,D) {
   ##B=inverse of matrix
   B<-NULL
@@ -21,6 +21,8 @@ makeCacheMatrix <- function(x,D) {
  
 }
 ####################################################
+## cacheSolve search whether the inverse matrix has already been calculated and the extract 
+## the inverse matrix but if it was not already calculated it calculates the inverse matrix and add it to the list
 cacheSolve <- function(x,...){
     B<-x$showinv()
   if(!is.null(B)){
