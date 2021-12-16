@@ -32,3 +32,7 @@ cacheSolve <- function(x,...){
     B
     
 }
+##
+##I passed the matrix "z1<-matrix(seq(1,20),2,2) to makeCashMatrix and calculated the inverse matrix "matrix(c(-2,1,1.5,-.5),2,2)" and then stored to the list
+##then I passed z1 to the cacheSolve and it extracted the result from the list and did not add data to the list
+## after I 
